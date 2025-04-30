@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &560351948227538940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6904373583907391293}
+  m_Layer: 0
+  m_Name: EvilRobots 1
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6904373583907391293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560351948227538940}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 312.43, y: 9.5, z: 527.0996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4803651356131707126}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8280454626112829583
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6904373583907391293}
+    m_Modifications:
+    - target: {fileID: 209309932826104450, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: damageAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 246919149206956797, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: damageAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458587080896261567, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: damageAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848309331233254889, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: damageAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2016389485679072892, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: damageAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2787573143806221577, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: damageAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477881625775976569, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477881625775976569, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477881625775976569, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477881625775976569, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477881625775976569, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477881625775976569, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477881625775976569, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477881625775976569, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477881625775976569, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477881625775976569, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810905478884813125, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: damageAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4421607462576853232, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: m_Name
+      value: Robo11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5180402940687918998, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: damageAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6995817267587075275, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: m_Name
+      value: EvilRobots 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305079534801555950, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: damageAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8613431070818305489, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: damageAmount
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8847134019972546562, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+      propertyPath: damageAmount
+      value: 20
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+--- !u!4 &4803651356131707126 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3477881625775976569, guid: 5e17cc80dd4a06a4ebaf6e49588fd9f2, type: 3}
+  m_PrefabInstance: {fileID: 8280454626112829583}
+  m_PrefabAsset: {fileID: 0}
